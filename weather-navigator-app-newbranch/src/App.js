@@ -5,6 +5,10 @@ import Forecast from "./components/forecast/forecast";
 import { WEATHER_API_URL, WEATHER_API_KEY } from "./api";
 import { useState } from "react";
 
+// example downloaded from
+// https://github.com/KrystalZhang612/weather-navigator-app?ref=reactjsexample.com
+// with API keys added
+
 function App() {
 
   const [currentWeather, setCurrentWeather] = useState(null);
