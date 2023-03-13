@@ -7,8 +7,11 @@ Toby Dussek
 9:30  start
 11:00 break until 11:15
 12:30 lunch until 1:30
-3:00  break
+3:00  break until 3:15
 4:30  end
+
+ordnance
+
 
 Monday
 > welcome, introductions, check setup
@@ -17,27 +20,26 @@ Monday
 - Modern Web features
   nb classes are now performant
   > how React manipulates our code
-  - cache buster main.32a39c5e.js  main.32a39c5e.js
+  > cache buster main.32a39c5e.js  main.32a39c5e.js
   - time to 'first significant render/paint'
   - opportunities for optimising in React
   - overview of React tooling
-
   write leading edge -> 'compile' to target version
-- Using Chrome Developer Tools and CSS Dev Tools
+> Using Chrome Developer Tools and CSS Dev Tools
 - Strategies for performant code
   architecture
-- Progressive Web Apps
-- Accessibility
+- Accessibility 
 - Document Object model (DOM) and Browser Object Model (BOM)
 - Code Performance: ECMAScript coding strategies
-- Async
 
 Tuesday
 - React: optimising large apps
 - React Dev Tools
+- Progressive Web Apps - defer, lazy
+- Async, fetch
 - The React build tool-chain
 - Hooks for performance
-- Events, Promises abd Observables
+- Events, Promises and Observables
 - React profiling
 - Redux as a performance benefit
 
