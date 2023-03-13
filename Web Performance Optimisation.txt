@@ -1,11 +1,11 @@
 Web Performance Optimisation
 
-Msrch 13-14 2023
+March 13-14 2023
 
 Toby Dussek
 
 9:30  start
-11:00 break
+11:00 break until 11:15
 12:30 lunch
 3:00  break
 4:30  end
@@ -13,9 +13,14 @@ Toby Dussek
 Monday
 - welcome, introductions, check setup
 - What can be optimised
+  bundles of js, css etc
 - Modern Web features
+  nb classes are now performant
+  how React manipulates our code
+  write leading edge -> 'compile' to target version
 - Using Chrome Developer Tools and CSS Dev Tools
 - Strategies for performant code
+  architecture
 - Progressive Web Apps
 - Accessibility
 - Document Object model (DOM) and Browser Object Model (BOM)
@@ -30,6 +35,10 @@ Tuesday
 - Events, Promises abd Observables
 - React profiling
 - Redux as a performance benefit
+
+
+
+
 
 - repo https://github.com/onionmccabbage/WebOptMar23
 - course outline: https://www.frameworktraining.co.uk/courses/coding/web-apps-and-performance-tuning/web-performance-and-optimisation-training-course
