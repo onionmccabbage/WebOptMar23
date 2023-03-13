@@ -6,17 +6,22 @@ Toby Dussek
 
 9:30  start
 11:00 break until 11:15
-12:30 lunch
+12:30 lunch until 1:30
 3:00  break
 4:30  end
 
 Monday
-- welcome, introductions, check setup
+> welcome, introductions, check setup
 - What can be optimised
   bundles of js, css etc
 - Modern Web features
   nb classes are now performant
-  how React manipulates our code
+  > how React manipulates our code
+  - cache buster main.32a39c5e.js  main.32a39c5e.js
+  - time to 'first significant render/paint'
+  - opportunities for optimising in React
+  - overview of React tooling
+
   write leading edge -> 'compile' to target version
 - Using Chrome Developer Tools and CSS Dev Tools
 - Strategies for performant code
