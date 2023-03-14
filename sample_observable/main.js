@@ -8,8 +8,15 @@ const isNum = (code)=>{return 32 && code <=126}
 // we conventionaly use a trailing $ to identify an observable
 const keyup$ = Rx.Observable.fromEvent(document, 'keyup') // listen for keyboard events
 // the observable is only instantiated once there is at least one subscriber
+// as many subscribers as we like
+sub2 = keyup$.pluck('keyCode')
+    .filter(isNum) // only respond if the keyCode is 32-126
+    .subscribe( (keyCode)=>{
+        console.log(`we can sell the following tracking info: ${String.fromCharCode(keyCode)}`)
+    } )
 sub1 = keyup$.pluck('keyCode')
     .filter(isNum) // only respond if the keyCode is 32-126
     .subscribe( (keyCode)=>{
         console.log(`user typed: ${String.fromCharCode(keyCode)}`)
     } )
+
