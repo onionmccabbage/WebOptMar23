@@ -49,6 +49,8 @@ Tuesday
   observables are clever enough that they only bulish if there is at least one subscriber
   observables are especially useful when we have STREAMS of data or events
 > React profiling
+  - have in mind a 'script'
+  - e.g. todo: end, todo: feedback, todo:redux, then 'done' on redux, then view each link
 - Redux as a performance benefit
   - Redux is only an advantage at scale
   - managing 'single source of truth' in one place (the Store)
