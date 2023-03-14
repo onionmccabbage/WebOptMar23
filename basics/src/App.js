@@ -9,7 +9,10 @@ function App() {
         <nav></nav>
         <section>
           <aside>
+            {/* add the profile tag... */}
+            <profile>
             <h3>Sample React App</h3>
+            </profile>
           </aside>
         </section>
         <footer></footer>
