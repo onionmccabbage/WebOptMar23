@@ -20,3 +20,5 @@ sub1 = keyup$.pluck('keyCode')
         console.log(`user typed: ${String.fromCharCode(keyCode)}`)
     } )
 
+// when the last subscriber unsubscribes, the observable is marked for destruction
+

@@ -17,7 +17,7 @@ Monday
 > welcome, introductions, check setup
 - What can be optimised
   bundles of js, css etc
-- Modern Web features
+> Modern Web features
   nb classes are now performant
   > how React manipulates our code
   > cache buster main.32a39c5e.js  main.32a39c5e.js
@@ -28,24 +28,32 @@ Monday
 > Using Chrome Developer Tools and CSS Dev Tools
 - Strategies for performant code
   architecture
-- Accessibility 
-- Document Object model (DOM) and Browser Object Model (BOM)
-- Code Performance: ECMAScript coding strategies
+> Accessibility 
+> Document Object model (DOM) and Browser Object Model (BOM)
+> Code Performance: ECMAScript coding strategies
 
 Tuesday
 - React: optimising large apps
+  data always flows in ONE direction:
+   - into the app model (from components)
+   - into a component (from the app model)
 - React Dev Tools
 - Progressive Web Apps - defer, lazy
-- Async, fetch
+> Async, fetch
 - The React build tool-chain
 - Hooks for performance
-- Events, Promises and Observables
+  pure function are excepted in modern React
+> Events, Promises and Observables
   All React 'events' have now moved to 'Promises'
   ... and many of them are moving on to be Observables
-- React profiling
+  observables are clever enough that they only bulish if there is at least one subscriber
+  observables are especially useful when we have STREAMS of data or events
+> React profiling
 - Redux as a performance benefit
-
-
+  - Redux is only an advantage at scale
+  - managing 'single source of truth' in one place (the Store)
+  - npx create-react-app my-app --template redux
+    https://redux.js.org/introduction/getting-started
 
 
 
