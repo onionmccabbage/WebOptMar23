@@ -19,7 +19,7 @@ const fetchEmployees = async ()=>{ // async tells ES this is going to repond asy
 }
 
 // use our code
-fetchEmployees() // fetch is a Promise, so it is 'thenable'
+fetchEmployees() // fetch returns a Promise, so it is 'thenable'
     .then( (d)=>{
         console.log(`we received ${d}`)
         console.log(`member zero is ${d[0]['employee_name']}`)

@@ -40,6 +40,8 @@ Tuesday
 - The React build tool-chain
 - Hooks for performance
 - Events, Promises and Observables
+  All React 'events' have now moved to 'Promises'
+  ... and many of them are moving on to be Observables
 - React profiling
 - Redux as a performance benefit
 
@@ -50,3 +52,4 @@ Tuesday
 - repo https://github.com/onionmccabbage/WebOptMar23
 - course outline: https://www.frameworktraining.co.uk/courses/coding/web-apps-and-performance-tuning/web-performance-and-optimisation-training-course
 - end of course fedback
+  https://frameworktraining.typeform.com/to/JVCgeHjv
